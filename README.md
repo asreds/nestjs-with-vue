@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <a href="https://nuliskode.com/2023/06/07/start-nest-js-dengan-vue-js/" target="blank"><img src="https://nuliskode.com/wp-content/uploads/2023/06/nestjsxvue-768x603.png" width="200" alt="Nest Logo" /></a>
 </p>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
@@ -24,9 +24,9 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository with Vue JS
 
-## Installation
+## Installation Nest
 
 ```bash
 $ yarn install
@@ -58,15 +58,18 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 
-## Support
+## Installation Vue JS
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+```bash
+# open client folder
+cd client
 
-## Stay in touch
+# install depedencies
+yarn install
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+# build vue js
+yarn build
+```
 
 ## License
 
